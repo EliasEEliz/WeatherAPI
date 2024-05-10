@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<header><img src="./images.jpg"></header>
+<body>
+<h1>Todays Weather Forecast</h1>
+<h2>Search for a City:</h2>
+    <input type="text" id="cityInput" name="cityInput" placeholder="Texas" />
+    <button onclick="fetchWeather()">
+        Submit
+    </button>
+    <h5 id="error"></h5>
+    <h3 id="city"></h3>
+    <div id="weather"></div>
+
+    <script src="./js.js"></script>
+</body>
+
+</html>

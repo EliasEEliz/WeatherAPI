@@ -1,0 +1,26 @@
+
+body {
+    font-family: Courier, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    background-color: #228f89;
+}
+
+input {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+
+h1 {
+color: lightgreen;
+font-size: x-large;
+padding: 10%;
+margin: 10%;
+}
+
+img {
+    padding: 5%;
+    margin: 5%;
+}
